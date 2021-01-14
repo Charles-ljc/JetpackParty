@@ -166,7 +166,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Enterprise
     // Create enterprise-ready applications.
-    def enterprise_version = "1.0.0"
+    def enterprise_version = "1.1.0"
     implementation "androidx.enterprise:enterprise-feedback:$enterprise_version"
     // For testing enterprise feedback in isolation
     implementation "androidx.enterprise:enterprise-feedback-testing:$enterprise_version"
@@ -263,7 +263,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Mediarouter
     // Enable media display and playback on remote receiver devices using a common user interface.
-    implementation "androidx.mediarouter:mediarouter:1.2.0"
+    implementation "androidx.mediarouter:mediarouter:1.2.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -342,6 +342,12 @@ dependencies {
     // Savedstate
     // Write pluggable components that save the UI state when a process dies, and restore it when the process restarts.
     implementation "androidx.savedstate:savedstate:1.0.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+    // ShareTarget
+    // Provide backwards compatibility for using shortcuts as direct share targets.
+    implementation "androidx.sharetarget:sharetarget:1.1.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
