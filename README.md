@@ -1,5 +1,14 @@
 # JetpackParty2021
 
+## 2021-01-27
+1. Autofill Version 1.1.0
+2. Biometric Version 1.1.0
+3. Media2 Version 1.1.2
+4. Navigation Version 2.3.3
+5. RecyclerView-Selection Version 1.1.0
+6. Transition Version 1.4.0
+7. Work Version 2.5.0
+
 ## 2021-01-13
 1. Enterprise Version 1.1.0
 2. Mediarouter Version 1.2.1
