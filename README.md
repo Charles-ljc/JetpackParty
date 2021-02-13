@@ -1,5 +1,13 @@
 # JetpackParty2021
 
+## 2021-02-10
+1. Activity Version 1.2.0
+2. Core-Role Version 1.0.0
+3. Fragment Version 1.3.0
+4. Lifecycle Version 2.3.0
+5. Mediarouter Version 1.2.2
+6. SavedState Version 1.1.0
+
 ## 2021-01-27
 1. Autofill Version 1.1.0
 2. Biometric Version 1.1.0
