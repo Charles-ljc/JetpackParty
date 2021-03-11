@@ -22,7 +22,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Activity
     // Access composable APIs built on top of Activity.
-    implementation "androidx.activity:activity-ktx:1.2.0"
+    implementation "androidx.activity:activity-ktx:1.2.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -183,7 +183,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.3.0"
+    def fragment_version = "1.3.1"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -277,7 +277,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Navigation
     // Navigation is a framework for navigating between 'destinations' within an Android application that provides a consistent API whether destinations are implemented as Fragments, Activities, or other components.
-    def nav_version = "2.3.3"
+    def nav_version = "2.3.4"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
     // Feature module Support

@@ -1,5 +1,10 @@
 # JetpackParty2021
 
+## 2021-03-10
+1. Activity Version 1.2.1
+2. Fragment Version 1.3.1
+3. Navigation Version 2.3.4
+
 ## 2021-02-10
 1. Activity Version 1.2.0
 2. Core-Role Version 1.0.0
