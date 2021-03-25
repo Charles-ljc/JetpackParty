@@ -1,5 +1,11 @@
 # JetpackParty2021
 
+## 2021-03-24
+1. Activity Version 1.2.2
+2. Annotation Version 1.2.0
+3. Fragment Version 1.3.2
+4. Lifecycle Version 2.3.1
+
 ## 2021-03-10
 1. Activity Version 1.2.1
 2. Fragment Version 1.3.1
