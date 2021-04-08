@@ -1,5 +1,11 @@
 # JetpackParty2021
 
+## 2021-04-07
+1. Annotation-Experimental Version 1.1.0
+2. Media Version 1.3.0
+3. Navigation Version 2.3.5
+4. RecyclerView Version 1.2.0
+
 ## 2021-03-24
 1. Activity Version 1.2.2
 2. Annotation Version 1.2.0
