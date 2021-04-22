@@ -78,6 +78,12 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
+    // Car App
+    // Build navigation, parking, and charging apps for Android Auto.
+    implementation "androidx.car.app:app:1.0.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
     // Cardview
     // Implement the Material Design card pattern with round corners and drop shadows.
     implementation "androidx.cardview:cardview:1.0.0"
@@ -184,7 +190,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.3.2"
+    def fragment_version = "1.3.3"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -254,7 +260,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Media2
     // Share media contents and controls with other apps.
-    def media2_version = "1.1.2"
+    def media2_version = "1.1.3"
     // Interacting with MediaSessions
     implementation "androidx.media2:media2-session:$media2_version"
     // optional - UI widgets for VideoView and MediaControlView
@@ -333,7 +339,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Room
     // The Room persistence library provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
-    def room_version = "2.2.6"
+    def room_version = "2.3.0"
     implementation "androidx.room:room-runtime:$room_version"
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation "androidx.room:room-ktx:$room_version"
@@ -345,6 +351,12 @@ dependencies {
     // Savedstate
     // Write pluggable components that save the UI state when a process dies, and restore it when the process restarts.
     implementation "androidx.savedstate:savedstate-ktx:1.1.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+    // Security
+    // Safely manage keys and encrypt files and sharedpreferences.
+    implementation "androidx.security:security-crypto:1.0.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -430,7 +442,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Transition
     // Animate motion in the UI with starting and ending layouts.
-    implementation "androidx.transition:transition-ktx:1.4.0"
+    implementation "androidx.transition:transition-ktx:1.4.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————

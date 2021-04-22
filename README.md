@@ -1,5 +1,13 @@
 # JetpackParty2021
 
+## 2021-04-21
+1. Car App Version 1.0.0
+2. Fragment Version 1.3.3
+3. Media2 Version 1.1.3
+4. Room Version 2.3.0
+5. Security Version 1.0.0
+6. Transition Version 1.4.1
+
 ## 2021-04-07
 1. Annotation-Experimental Version 1.1.0
 2. Media Version 1.3.0
