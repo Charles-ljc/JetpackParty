@@ -1,5 +1,13 @@
 # JetpackParty2021
 
+## 2021-05-05
+1. Activity Version 1.2.3
+2. Camera Version 1.0.0
+3. Hilt Version 1.0.0
+4. Media Version 1.3.1
+5. Mediarouter Version 1.2.3
+6. Paging Version 3.0.0
+
 ## 2021-04-21
 1. Car App Version 1.0.0
 2. Fragment Version 1.3.3
