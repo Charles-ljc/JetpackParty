@@ -1,5 +1,10 @@
 # JetpackParty2021
 
+## 2021-05-18
+1. AppCompat Version 1.3.0
+2. Core Version 1.5.0
+3. Fragment Version 1.3.4
+
 ## 2021-05-05
 1. Activity Version 1.2.3
 2. Camera Version 1.0.0
