@@ -1,5 +1,8 @@
 # JetpackParty2021
 
+## 2021-06-02
+1. RecyclerView Version 1.2.1
+
 ## 2021-05-18
 1. AppCompat Version 1.3.0
 2. Core Version 1.5.0
