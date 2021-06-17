@@ -1,5 +1,9 @@
 # JetpackParty2021
 
+## 2021-06-16
+1. Fragment Version 1.3.5
+2. Mediarouter Version 1.2.4
+
 ## 2021-06-02
 1. RecyclerView Version 1.2.1
 
