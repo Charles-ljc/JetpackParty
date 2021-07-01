@@ -1,5 +1,12 @@
 # JetpackParty2021
 
+## 2021-06-30
+1. Core-Google-Shortcuts Version 1.0.0
+2. Core Version 1.6.0
+3. Games-Frame-Pacing Version 1.7.0
+4. Games-Performance-Tuner Version 1.1.0
+5. Test Version 1.4.0
+
 ## 2021-06-16
 1. Fragment Version 1.3.5
 2. Mediarouter Version 1.2.4
