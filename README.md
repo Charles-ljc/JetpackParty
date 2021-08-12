@@ -1,5 +1,9 @@
 # JetpackParty2021
 
+## 2021-07-12
+1. Games-Frame-Pacing Version 1.9.0
+2. Games-Performance-Tuner Version 1.4.3
+
 ## 2021-06-30
 1. Core-Google-Shortcuts Version 1.0.0
 2. Core Version 1.6.0

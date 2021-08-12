@@ -214,9 +214,9 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Android Games
     // To use the Android Frame Pacing library
-    implementation "androidx.games:games-frame-pacing:1.7.0"
+    implementation "androidx.games:games-frame-pacing:1.9.0"
     // To use the Android Performance Tuner
-    implementation "androidx.games:games-performance-tuner:1.1.0"
+    implementation "androidx.games:games-performance-tuner:1.4.3"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
