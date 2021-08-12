@@ -1,5 +1,8 @@
 # JetpackParty2021
 
+## 2021-07-30
+1. ConstraintLayout 2.1.0
+
 ## 2021-07-28
 1. Activity Version 1.3.0
 2. Compose Animation Version 1.0.0
