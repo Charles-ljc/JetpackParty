@@ -22,7 +22,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Activity
     // Access composable APIs built on top of Activity.
-    def activity_version = "1.3.0"
+    def activity_version = "1.3.1"
     implementation "androidx.activity:activity-ktx:${activity_version}"
     implementation "androidx.activity:activity-compose:${activity_version}"
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -113,7 +113,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Compose
     // Define your UI programmatically with composable functions that describe its shape and data dependencies.
-    def compose_version = "1.0.0"
+    def compose_version = "1.0.1"
     // Compose Animation
     // Build animations in their Jetpack Compose applications to enrich the user experience.
     implementation "androidx.compose.animation:animation:${compose_version}"
@@ -189,6 +189,24 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
+    // DataStore
+    // Store data asynchronously, consistently, and transactionally, overcoming some of the drawbacks of SharedPreferences
+    // Typed DataStore (Typed API surface, such as Proto)
+    def datastore_version = "1.0.0"
+    implementation "androidx.datastore:datastore:$datastore_version"
+    // optional - RxJava2 support
+    implementation "androidx.datastore:datastore-rxjava2:$datastore_version"
+    // optional - RxJava3 support
+    implementation "androidx.datastore:datastore-rxjava3:$datastore_version"
+    // Preferences DataStore (SharedPreferences like APIs)
+    implementation "androidx.datastore:datastore-preferences:$datastore_version"
+    // optional - RxJava2 support
+    implementation "androidx.datastore:datastore-preferences-rxjava2:$datastore_version"
+    // optional - RxJava3 support
+    implementation "androidx.datastore:datastore-preferences-rxjava3:$datastore_version"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
     // Documentfile
     // View a file document.
     implementation "androidx.documentfile:documentfile:1.0.1"
@@ -227,7 +245,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Exifinterface
     // Read and write image file EXIF tags.
-    implementation "androidx.exifinterface:exifinterface:1.3.2"
+    implementation "androidx.exifinterface:exifinterface:1.3.3"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -245,6 +263,12 @@ dependencies {
     implementation "androidx.games:games-frame-pacing:1.9.0"
     // To use the Android Performance Tuner
     implementation "androidx.games:games-performance-tuner:1.4.3"
+    // To use the Games Activity library
+    implementation "androidx.games:games-activity:1.0.0"
+    // To use the Games Controller Library
+    implementation "androidx.games:games-controller:1.0.0"
+    // To use the Games Text Input Library
+    implementation "androidx.games:games-text-input:1.0.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -314,7 +338,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Media
     // Share media contents and controls with other apps. Superseded by media2.
-    implementation "androidx.media:media:1.4.0"
+    implementation "androidx.media:media:1.4.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -389,7 +413,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // ProfileInstaller
     // Enables libraries to prepopulate ahead of time compilation traces to be read by ART.
-    implementation "androidx.profileinstaller:profileinstaller:1.0.0"
+    implementation "androidx.profileinstaller:profileinstaller:1.0.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -462,7 +486,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Startup
     // Implement a straightforward, performant way to initialize components at app startup.
-    implementation "androidx.startup:startup-runtime:1.0.0"
+    implementation "androidx.startup:startup-runtime:1.1.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————

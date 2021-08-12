@@ -1,5 +1,22 @@
 # JetpackParty2021
 
+## 2021-08-04
+1. Activity Version 1.3.1
+2. Compose Animation Version 1.0.1
+3. Compose Compiler Version 1.0.1
+4. Compose Foundation Version 1.0.1
+5. Compose Material Version 1.0.1
+6. Compose Runtime Version 1.0.1
+7. Compose UI Version 1.0.1
+8. Datastore Version 1.0.0
+9. Exifinterface Version 1.3.3
+10. Games-Activity Version 1.0.0
+11. Games-Controller Version 1.0.0
+12. Games-Text-Input Version 1.0.0
+13. Media Version 1.4.1
+14. ProfileInstaller Version 1.0.1
+15. Startup Version 1.1.0
+
 ## 2021-07-30
 1. ConstraintLayout 2.1.0
 
