@@ -1,5 +1,13 @@
 # JetpackParty2021
 
+## 2021-07-21
+1. Activity Version 1.2.4
+2. AppCompat Version 1.3.1
+3. Camera Version 1.0.1
+4. Fragment Version 1.3.6
+5. Media Version 1.4.0
+6. Paging Version 3.0.1
+
 ## 2021-07-12
 1. Games-Frame-Pacing Version 1.9.0
 2. Games-Performance-Tuner Version 1.4.3

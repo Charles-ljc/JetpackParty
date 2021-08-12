@@ -22,7 +22,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Activity
     // Access composable APIs built on top of Activity.
-    implementation "androidx.activity:activity-ktx:1.2.3"
+    implementation "androidx.activity:activity-ktx:1.2.4"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -35,7 +35,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Appcompat
     // Allows access to new APIs on older API versions of the platform (many using Material Design).
-    def appcompat_version = "1.3.0"
+    def appcompat_version = "1.3.1"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     // For loading and tinting drawables on older versions of the platform
     implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
@@ -82,7 +82,7 @@ dependencies {
     // CameraX is an addition to Jetpack that makes it easier to add camera capabilities to your app.
     // The library provides a number of compatibility fixes and workarounds to help make the developer experience consistent across many devices.
     // CameraX core library using the camera2 implementation
-    def camerax_version = "1.0.0"
+    def camerax_version = "1.0.1"
     // The following line is optional, as the core library is included indirectly by camera-camera2
     implementation "androidx.camera:camera-core:${camerax_version}"
     implementation "androidx.camera:camera-camera2:${camerax_version}"
@@ -205,7 +205,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.3.5"
+    def fragment_version = "1.3.6"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -286,7 +286,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Media
     // Share media contents and controls with other apps. Superseded by media2.
-    implementation "androidx.media:media:1.3.1"
+    implementation "androidx.media:media:1.4.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -328,7 +328,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Paging
     // The Paging Library makes it easier for you to load data gradually and gracefully within your app's RecyclerView.
-    def paging_version = "3.0.0"
+    def paging_version = "3.0.1"
     implementation "androidx.paging:paging-runtime:$paging_version"
     // alternatively - without Android dependencies for tests
     testImplementation "androidx.paging:paging-common:$paging_version"
