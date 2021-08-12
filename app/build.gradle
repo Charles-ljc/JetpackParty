@@ -22,7 +22,9 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Activity
     // Access composable APIs built on top of Activity.
-    implementation "androidx.activity:activity-ktx:1.2.4"
+    def activity_version = "1.3.0"
+    implementation "androidx.activity:activity-ktx:${activity_version}"
+    implementation "androidx.activity:activity-compose:${activity_version}"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -106,6 +108,32 @@ dependencies {
     // Collection
     // Reduce the memory impact of existing and new collections that are small.
     implementation "androidx.collection:collection-ktx:1.1.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+    // Compose
+    // Define your UI programmatically with composable functions that describe its shape and data dependencies.
+    def compose_version = "1.0.0"
+    // Compose Animation
+    // Build animations in their Jetpack Compose applications to enrich the user experience.
+    implementation "androidx.compose.animation:animation:${compose_version}"
+    // Compose Compiler
+    // Transform @Composable functions and enable optimizations with a Kotlin compiler plugin.
+    implementation "androidx.compose.compiler:compiler:${compose_version}"
+    // Compose Foundation
+    // Write Jetpack Compose applications with ready to use building blocks and extend foundation to build your own design system pieces.
+    implementation "androidx.compose.foundation:foundation:${compose_version}"
+    // Compose Material
+    // Build Jetpack Compose UIs with ready to use Material Design Components. This is the higher level entry point of Compose, designed to provide components that match those described at www.material.io.
+    implementation "androidx.compose.material:material:${compose_version}"
+    // Compose Runtime
+    // Fundamental building blocks of Compose's programming model and state management, and core runtime for the Compose Compiler Plugin to target.
+    implementation "androidx.compose.runtime:runtime:${compose_version}"
+    implementation "androidx.compose.runtime:runtime-livedata:${compose_version}"
+    implementation "androidx.compose.runtime:runtime-rxjava2:${compose_version}"
+    // Compose UI
+    // Fundamental components of compose UI needed to interact with the device, including layout, drawing, and input.
+    implementation "androidx.compose.ui:ui:${compose_version}"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -356,6 +384,12 @@ dependencies {
     // Print
     // Print photos, docs, and other graphics and images from your app.
     implementation "androidx.print:print:1.0.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+    // ProfileInstaller
+    // Enables libraries to prepopulate ahead of time compilation traces to be read by ART.
+    implementation "androidx.profileinstaller:profileinstaller:1.0.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————

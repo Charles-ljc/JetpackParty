@@ -1,5 +1,15 @@
 # JetpackParty2021
 
+## 2021-07-28
+1. Activity Version 1.3.0
+2. Compose Animation Version 1.0.0
+3. Compose Compiler Version 1.0.0
+4. Compose Foundation Version 1.0.0
+5. Compose Material Version 1.0.0
+6. Compose Runtime Version 1.0.0
+7. Compose UI Version 1.0.0
+8. ProfileInstaller Version 1.0.0
+
 ## 2021-07-21
 1. Activity Version 1.2.4
 2. AppCompat Version 1.3.1
