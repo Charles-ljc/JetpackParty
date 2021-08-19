@@ -1,5 +1,8 @@
 # JetpackParty2021
 
+## 2021-08-18
+1. Wear-Input Wear-Input-Testing Version 1.1.0
+
 ## 2021-08-04
 1. Activity Version 1.3.1
 2. Compose Animation Version 1.0.1
