@@ -1,5 +1,17 @@
 # JetpackParty2021
 
+## 2021-09-01
+1. Compose Animation Version 1.0.2
+2. Compose Compiler Version 1.0.2
+3. Compose Foundation Version 1.0.2
+4. Compose Material Version 1.0.2
+5. Compose Runtime Version 1.0.2
+6. Compose UI Version 1.0.2
+7. Mediarouter Version 1.2.5
+8. ProfileInstaller Version 1.0.2
+9. Wear-Ongoing Version 1.0.0
+10. WorkManager Version 2.6.0
+
 ## 2021-08-18
 1. Wear-Input Wear-Input-Testing Version 1.1.0
 

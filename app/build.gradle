@@ -113,7 +113,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Compose
     // Define your UI programmatically with composable functions that describe its shape and data dependencies.
-    def compose_version = "1.0.1"
+    def compose_version = "1.0.2"
     // Compose Animation
     // Build animations in their Jetpack Compose applications to enrich the user experience.
     implementation "androidx.compose.animation:animation:${compose_version}"
@@ -356,7 +356,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Mediarouter
     // Enable media display and playback on remote receiver devices using a common user interface.
-    implementation "androidx.mediarouter:mediarouter:1.2.4"
+    implementation "androidx.mediarouter:mediarouter:1.2.5"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -413,7 +413,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // ProfileInstaller
     // Enables libraries to prepopulate ahead of time compilation traces to be read by ART.
-    implementation "androidx.profileinstaller:profileinstaller:1.0.1"
+    implementation "androidx.profileinstaller:profileinstaller:1.0.2"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -580,6 +580,8 @@ dependencies {
     def wear_input_version = "1.1.0"
     implementation "androidx.wear:wear-input:$wear_input_version"
     implementation "androidx.wear:wear-input-testing:$wear_input_version"
+    // Use to implement wear ongoing activities
+    implementation "androidx.wear:wear-ongoing:1.0.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -591,7 +593,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // WorkManager
     // The WorkManager API makes it easy to schedule deferrable, asynchronous tasks that must be run reliably. These APIs let you create a task and hand it off to WorkManager to run when the work constraints are met.
-    def work_version = "2.5.0"
+    def work_version = "2.6.0"
     implementation "androidx.work:work-runtime-ktx:$work_version"
     // optional - RxJava2 support
     implementation "androidx.work:work-rxjava2:$work_version"
