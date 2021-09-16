@@ -1,5 +1,11 @@
 # JetpackParty2021
 
+## 2021-09-15
+1. Media Version 1.4.2
+2. Media2 Version 1.2.0
+3. Wear Version 1.2.0
+4. Wear-Phone-Interactions Wear-Remote-Interactions Version 1.0.0
+
 ## 2021-09-01
 1. Compose Animation Version 1.0.2
 2. Compose Compiler Version 1.0.2
