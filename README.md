@@ -1,5 +1,15 @@
 # JetpackParty2021
 
+## 2021-09-29
+1. Camera Version 1.0.2
+2. Compose Animation Version 1.0.3
+3. Compose Compiler Version 1.0.3
+4. Compose Foundation Version 1.0.3
+5. Compose Material Version 1.0.3
+6. Compose Runtime Version 1.0.3
+7. Compose UI Version 1.0.3
+8. ProfileInstaller Version 1.0.3
+
 ## 2021-09-15
 1. Media Version 1.4.2
 2. Media2 Version 1.2.0

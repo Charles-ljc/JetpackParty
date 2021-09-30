@@ -84,7 +84,7 @@ dependencies {
     // CameraX is an addition to Jetpack that makes it easier to add camera capabilities to your app.
     // The library provides a number of compatibility fixes and workarounds to help make the developer experience consistent across many devices.
     // CameraX core library using the camera2 implementation
-    def camerax_version = "1.0.1"
+    def camerax_version = "1.0.2"
     // The following line is optional, as the core library is included indirectly by camera-camera2
     implementation "androidx.camera:camera-core:${camerax_version}"
     implementation "androidx.camera:camera-camera2:${camerax_version}"
@@ -113,7 +113,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Compose
     // Define your UI programmatically with composable functions that describe its shape and data dependencies.
-    def compose_version = "1.0.2"
+    def compose_version = "1.0.3"
     // Compose Animation
     // Build animations in their Jetpack Compose applications to enrich the user experience.
     implementation "androidx.compose.animation:animation:${compose_version}"
@@ -413,7 +413,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // ProfileInstaller
     // Enables libraries to prepopulate ahead of time compilation traces to be read by ART.
-    implementation "androidx.profileinstaller:profileinstaller:1.0.2"
+    implementation "androidx.profileinstaller:profileinstaller:1.0.3"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
