@@ -1,5 +1,10 @@
 # JetpackParty2021
 
+## 2021-10-27
+1. Activity Version 1.4.0
+2. Core Version 1.7.0
+3. Lifecycle Version 2.4.0
+
 ## 2021-10-13
 1. Compose Animation Version 1.0.4
 2. Compose Compiler Version 1.0.4
