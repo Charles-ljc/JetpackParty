@@ -37,7 +37,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Appcompat
     // Allows access to new APIs on older API versions of the platform (many using Material Design).
-    def appcompat_version = "1.3.1"
+    def appcompat_version = "1.4.0"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     // For loading and tinting drawables on older versions of the platform
     implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
@@ -234,6 +234,15 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
+    // Emoji2
+    // Display emoji in current and older devices.
+    def emoji2_version = "1.0.0"
+    implementation "androidx.emoji2:emoji2:$emoji2_version"
+    implementation "androidx.emoji2:emoji2-views:$emoji2_version"
+    implementation "androidx.emoji2:emoji2-views-helper:$emoji2_version"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
     // Enterprise
     // Create enterprise-ready applications.
     def enterprise_version = "1.1.0"
@@ -251,7 +260,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.3.6"
+    def fragment_version = "1.4.0"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -380,7 +389,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Paging
     // The Paging Library makes it easier for you to load data gradually and gracefully within your app's RecyclerView.
-    def paging_version = "3.0.1"
+    def paging_version = "3.1.0"
     implementation "androidx.paging:paging-runtime:$paging_version"
     // alternatively - without Android dependencies for tests
     testImplementation "androidx.paging:paging-common:$paging_version"
@@ -606,7 +615,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // WorkManager
     // The WorkManager API makes it easy to schedule deferrable, asynchronous tasks that must be run reliably. These APIs let you create a task and hand it off to WorkManager to run when the work constraints are met.
-    def work_version = "2.7.0"
+    def work_version = "2.7.1"
     implementation "androidx.work:work-runtime-ktx:$work_version"
     // optional - RxJava2 support
     implementation "androidx.work:work-rxjava2:$work_version"

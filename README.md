@@ -1,5 +1,12 @@
 # JetpackParty2021
 
+## 2021-11-17
+1. AppCompat AppCompat-Resources Version 1.4.0
+2. Emoji2 Version 1.0.0
+3. Fragment Version 1.4.0
+4. Paging Version 3.1.0
+5. WorkManager Version 2.7.1
+
 ## 2021-11-16
 1. ConstraintLayout 2.1.2
 
