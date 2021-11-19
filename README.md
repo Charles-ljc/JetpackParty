@@ -1,5 +1,17 @@
 # JetpackParty2021
 
+## 2021-11-03
+1. Annotation Version 1.3.0
+2. Browser Version 1.4.0
+3. Compose Animation Version 1.0.5
+4. Compose Compiler Version 1.0.5
+5. Compose Foundation Version 1.0.5
+6. Compose Material Version 1.0.5
+7. Compose Runtime Version 1.0.5
+8. Compose UI Version 1.0.5
+9. ResourceInspection Version 1.0.0
+10. Wear Tiles Version 1.0.0
+
 ## 2021-10-27
 1. Activity Version 1.4.0
 2. Core Version 1.7.0
