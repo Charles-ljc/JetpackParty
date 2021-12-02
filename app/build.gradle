@@ -107,7 +107,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Collection
     // Reduce the memory impact of existing and new collections that are small.
-    implementation "androidx.collection:collection-ktx:1.1.0"
+    implementation "androidx.collection:collection-ktx:1.2.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -604,6 +604,12 @@ dependencies {
     implementation "androidx.wear.tiles:tiles:1.0.0"
     // Use to preview wear tiles in your own app
     debugImplementation "androidx.wear.tiles:tiles-renderer:1.0.0"
+    // Use to implement wear watchfaces
+    implementation "androidx.wear.watchface:watchface:1.0.0"
+    // (Kotlin-specific extensions)
+    implementation "androidx.wear.watchface:watchface-complications-data-source-ktx:1.0.0"
+    // Use to implement a watchface style and complication editor
+    implementation "androidx.wear.watchface:watchface-editor:1.0.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————

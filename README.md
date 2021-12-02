@@ -1,5 +1,9 @@
 # JetpackParty2021
 
+## 2021-12-01
+1. Collection Version 1.2.0
+2. Wear Watchface Version 1.0.0
+
 ## 2021-11-17
 1. AppCompat AppCompat-Resources Version 1.4.0
 2. Emoji2 Version 1.0.0
