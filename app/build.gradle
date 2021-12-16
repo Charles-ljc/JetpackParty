@@ -512,10 +512,11 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Test
     // Testing in Android.
+    testImplementation "androidx.test:annotation:1.0.0"
     def test_version = "1.4.0"
     testImplementation "androidx.test:core-ktx:$test_version"
-    testImplementation "androidx.test:monitor:$test_version"
-    testImplementation "androidx.test:orchestrator:$test_version"
+    testImplementation "androidx.test:monitor:1.5.0"
+    testImplementation "androidx.test:orchestrator:1.4.1"
     testImplementation "androidx.test:rules:$test_version"
     testImplementation "androidx.test:runner:$test_version"
 
@@ -535,8 +536,9 @@ dependencies {
 
     testImplementation "androidx.test.janktesthelper:janktesthelper:1.0.1"
 
-    testImplementation "androidx.test.services:storage:$test_version"
-    testImplementation "androidx.test.services:test-services:$test_version"
+    def test_service_version = "1.4.1"
+    testImplementation "androidx.test.services:storage:$test_service_version"
+    testImplementation "androidx.test.services:test-services:$test_service_version"
 
     testImplementation "androidx.test.uiautomator:uiautomator:2.2.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————

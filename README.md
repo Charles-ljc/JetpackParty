@@ -1,5 +1,11 @@
 # JetpackParty2021
 
+## 2021-12-13
+1. Test Annotation Version 1.0.0
+2. Test Monitor Version 1.5.0
+3. Test Orchestrator Version 1.4.1
+4. Test Services Version 1.4.1
+
 ## 2021-12-01
 1. Collection Version 1.2.0
 2. Wear Watchface Version 1.0.0
