@@ -1,5 +1,13 @@
 # JetpackParty2021
 
+## 2021-12-15
+1. Annotation-Experimental Version 1.2.0
+2. Car App Version 1.1.0
+3. Emoji2 Version 1.0.1
+4. Room Version 2.4.0
+5. Sqlite Version 2.2.0
+6. Wear-Phone-Interactions Version 1.0.1
+
 ## 2021-12-13
 1. Test Annotation Version 1.0.0
 2. Test Monitor Version 1.5.0
