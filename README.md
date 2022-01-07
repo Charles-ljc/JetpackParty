@@ -1,5 +1,8 @@
 # JetpackParty2021
 
+## 2021-11-16
+1. ConstraintLayout 2.1.2
+
 ## 2021-11-03
 1. Annotation Version 1.3.0
 2. Browser Version 1.4.0
