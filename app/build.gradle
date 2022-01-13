@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.android.jetpack"
-        minSdkVersion 28
-        targetSdkVersion 30
-        versionCode 2021
-        versionName "2021"
+        minSdk 28
+        targetSdk 30
+        versionCode 2022
+        versionName "2022"
     }
 
     buildFeatures {
@@ -37,7 +37,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Appcompat
     // Allows access to new APIs on older API versions of the platform (many using Material Design).
-    def appcompat_version = "1.4.0"
+    def appcompat_version = "1.4.1"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     // For loading and tinting drawables on older versions of the platform
     implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
@@ -157,7 +157,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Coordinatorlayout
     // Position top-level application widgets, such as AppBarLayout and FloatingActionButton.
-    implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:1.2.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -447,7 +447,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Room
     // The Room persistence library provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
-    def room_version = "2.4.0"
+    def room_version = "2.4.1"
     implementation "androidx.room:room-runtime:$room_version"
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation "androidx.room:room-ktx:$room_version"
