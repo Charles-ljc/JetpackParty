@@ -262,7 +262,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.4.0"
+    def fragment_version = "1.4.1"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -301,6 +301,7 @@ dependencies {
     implementation "androidx.hilt:hilt-navigation:$hilt_version"
     implementation "androidx.hilt:hilt-navigation-fragment:$hilt_version"
     implementation "androidx.hilt:hilt-work:$hilt_version"
+    implementation "androidx.hilt:hilt-navigation-compose:$hilt_version"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -367,7 +368,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Mediarouter
     // Enable media display and playback on remote receiver devices using a common user interface.
-    implementation "androidx.mediarouter:mediarouter:1.2.5"
+    implementation "androidx.mediarouter:mediarouter:1.2.6"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -379,11 +380,13 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Navigation
     // Navigation is a framework for navigating between 'destinations' within an Android application that provides a consistent API whether destinations are implemented as Fragments, Activities, or other components.
-    def nav_version = "2.3.5"
-    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
-    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    def nav_version = "2.4.0"
+    implementation "androidx.navigation:navigation-fragment:$nav_version"
+    implementation "androidx.navigation:navigation-ui:$nav_version"
     // Feature module Support
     implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+    // Jetpack Compose Integration
+    implementation "androidx.navigation:navigation-compose:$nav_version"
     // Testing Navigation
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -412,7 +415,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Preference
     // Build interactive settings screens without needing to interact with device storage or manage the UI.
-    implementation "androidx.preference:preference-ktx:1.1.1"
+    implementation "androidx.preference:preference-ktx:1.2.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -443,7 +446,8 @@ dependencies {
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // ResourceInspection
-    implementation "androidx.resourceinspection:resourceinspection-annotation:1.0.0"
+    // Surface the attributes of custom views in Android Studio’s Live Layout Inspector.
+    implementation "androidx.resourceinspection:resourceinspection-annotation:1.0.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -487,7 +491,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Slidingpanelayout
     // Implement a sliding pane UI pattern.
-    implementation "androidx.slidingpanelayout:slidingpanelayout:1.1.0"
+    implementation "androidx.slidingpanelayout:slidingpanelayout:1.2.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -604,22 +608,53 @@ dependencies {
     implementation "androidx.wear:wear-phone-interactions:1.0.1"
     // Use to implement support for interactions between the Wearables and Phones
     implementation "androidx.wear:wear-remote-interactions:1.0.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+    // Wear Tiles
+    // Create applications for Wear OS by Google smartwatches.
+    def wear_tiles_version = "1.0.1"
     // Use to implement support for wear tiles
-    implementation "androidx.wear.tiles:tiles:1.0.0"
+    implementation "androidx.wear.tiles:tiles:$wear_tiles_version"
     // Use to preview wear tiles in your own app
-    debugImplementation "androidx.wear.tiles:tiles-renderer:1.0.0"
+    debugImplementation "androidx.wear.tiles:tiles-renderer:$wear_tiles_version"
+    // Use to fetch tiles from a tile provider in your tests
+    testImplementation "androidx.wear.tiles:tiles-testing:$wear_tiles_version"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+    // Wear Watchface
+    // Create applications for Wear OS by Google smartwatches.
+    def wear_watchface_version = "1.0.0"
     // Use to implement wear watchfaces
-    implementation "androidx.wear.watchface:watchface:1.0.0"
-    // (Kotlin-specific extensions)
-    implementation "androidx.wear.watchface:watchface-complications-data-source-ktx:1.0.0"
+    implementation "androidx.wear.watchface:watchface:$wear_watchface_version"
+    // Use to implement wear watchface complications (Kotlin-specific extensions)
+    implementation "androidx.wear.watchface:watchface-complications-data-source-ktx:$wear_watchface_version"
     // Use to implement a watchface style and complication editor
-    implementation "androidx.wear.watchface:watchface-editor:1.0.0"
+    implementation "androidx.wear.watchface:watchface-editor:$wear_watchface_version"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Webkit
     // Work with modern WebView APIs on Android 5 and above.
     implementation "androidx.webkit:webkit:1.4.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+    // WindowManager
+    // The Jetpack WindowManager library enables application developers to support new device form factors and multi-window environments.
+    // The library provides a common API surface for API versions 14 and later.
+    // The initial release targets foldable devices, but future versions will extend to more display types and window features.
+    def window_manager_version = "1.0.0"
+    implementation "androidx.window:window:$window_manager_version"
+    // For Java-friendly APIs to register and unregister callbacks
+    implementation "androidx.window:window-java:$window_manager_version"
+    // For RxJava2 integration
+    implementation "androidx.window:window-rxjava2:$window_manager_version"
+    // For RxJava3 integration
+    implementation "androidx.window:window-rxjava3:$window_manager_version"
+    // For testing
+    implementation "androidx.window:window-testing:$window_manager_version"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
