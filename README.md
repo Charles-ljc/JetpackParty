@@ -1,5 +1,22 @@
 # JetpackParty2022
 
+## 2022-02-09
+1. Compose Animation Version 1.1.0
+2. Compose Compiler Version 1.1.0
+3. Compose Foundation Version 1.1.0
+4. Compose Material Version 1.1.0
+5. Compose Runtime Version 1.1.0
+6. Compose UI Version 1.1.0
+7. Games-Performance-Tuner Version 1.5.0
+8. Games-Text-Input Version 1.1.0
+9. Lifecycle Version 2.4.1
+10. Media Version 1.5.0
+11. Media2 Version 1.2.1
+12. Navigation Version 2.4.1
+13. ProfileInstaller Version 1.1.0
+14. Startup Version 1.1.1
+15. Wear Watchface Version 1.0.1
+
 ## 2022-01-26
 1. Fragment Version 1.4.1
 2. Hilt-Navigation-Compose Version 1.0.0

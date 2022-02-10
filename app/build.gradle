@@ -113,7 +113,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Compose
     // Define your UI programmatically with composable functions that describe its shape and data dependencies.
-    def compose_version = "1.0.5"
+    def compose_version = "1.1.0"
     // Compose Animation
     // Build animations in their Jetpack Compose applications to enrich the user experience.
     implementation "androidx.compose.animation:animation:${compose_version}"
@@ -273,13 +273,13 @@ dependencies {
     // To use the Android Frame Pacing library
     implementation "androidx.games:games-frame-pacing:1.9.1"
     // To use the Android Performance Tuner
-    implementation "androidx.games:games-performance-tuner:1.4.3"
+    implementation "androidx.games:games-performance-tuner:1.5.0"
     // To use the Games Activity library
     implementation "androidx.games:games-activity:1.0.0"
     // To use the Games Controller Library
     implementation "androidx.games:games-controller:1.0.0"
     // To use the Games Text Input Library
-    implementation "androidx.games:games-text-input:1.0.0"
+    implementation "androidx.games:games-text-input:1.1.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -322,7 +322,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Lifecycle
     // Lifecycle-aware components perform actions in response to a change in the lifecycle status of another component, such as activities and fragments. These components help you produce better-organized, and often lighter-weight code, that is easier to maintain.
-    def lifecycle_version = "2.4.0"
+    def lifecycle_version = "2.4.1"
     // ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     // LiveData
@@ -350,13 +350,13 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Media
     // Share media contents and controls with other apps. Superseded by media2.
-    implementation "androidx.media:media:1.4.3"
+    implementation "androidx.media:media:1.5.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Media2
     // Share media contents and controls with other apps.
-    def media2_version = "1.2.0"
+    def media2_version = "1.2.1"
     // Interacting with MediaSessions
     implementation "androidx.media2:media2-session:$media2_version"
     // optional - UI widgets for VideoView and MediaControlView
@@ -380,7 +380,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Navigation
     // Navigation is a framework for navigating between 'destinations' within an Android application that provides a consistent API whether destinations are implemented as Fragments, Activities, or other components.
-    def nav_version = "2.4.0"
+    def nav_version = "2.4.1"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
     // Feature module Support
@@ -427,7 +427,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // ProfileInstaller
     // Enables libraries to prepopulate ahead of time compilation traces to be read by ART.
-    implementation "androidx.profileinstaller:profileinstaller:1.0.4"
+    implementation "androidx.profileinstaller:profileinstaller:1.1.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -506,7 +506,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Startup
     // Implement a straightforward, performant way to initialize components at app startup.
-    implementation "androidx.startup:startup-runtime:1.1.0"
+    implementation "androidx.startup:startup-runtime:1.1.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -625,7 +625,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Wear Watchface
     // Create applications for Wear OS by Google smartwatches.
-    def wear_watchface_version = "1.0.0"
+    def wear_watchface_version = "1.0.1"
     // Use to implement wear watchfaces
     implementation "androidx.wear.watchface:watchface:$wear_watchface_version"
     // Use to implement wear watchface complications (Kotlin-specific extensions)
