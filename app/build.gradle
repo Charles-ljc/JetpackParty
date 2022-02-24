@@ -113,7 +113,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Compose
     // Define your UI programmatically with composable functions that describe its shape and data dependencies.
-    def compose_version = "1.1.0"
+    def compose_version = "1.1.1"
     // Compose Animation
     // Build animations in their Jetpack Compose applications to enrich the user experience.
     implementation "androidx.compose.animation:animation:${compose_version}"
@@ -238,7 +238,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Emoji2
     // Display emoji in current and older devices.
-    def emoji2_version = "1.0.1"
+    def emoji2_version = "1.1.0"
     implementation "androidx.emoji2:emoji2:$emoji2_version"
     implementation "androidx.emoji2:emoji2-views:$emoji2_version"
     implementation "androidx.emoji2:emoji2-views-helper:$emoji2_version"
@@ -271,13 +271,13 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Android Games
     // To use the Android Frame Pacing library
-    implementation "androidx.games:games-frame-pacing:1.9.1"
+    implementation "androidx.games:games-frame-pacing:1.10.0"
     // To use the Android Performance Tuner
     implementation "androidx.games:games-performance-tuner:1.5.0"
     // To use the Games Activity library
-    implementation "androidx.games:games-activity:1.0.0"
+    implementation "androidx.games:games-activity:1.1.0"
     // To use the Games Controller Library
-    implementation "androidx.games:games-controller:1.0.0"
+    implementation "androidx.games:games-controller:1.1.0"
     // To use the Games Text Input Library
     implementation "androidx.games:games-text-input:1.1.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -453,7 +453,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Room
     // The Room persistence library provides an abstraction layer over SQLite to allow for more robust database access while harnessing the full power of SQLite.
-    def room_version = "2.4.1"
+    def room_version = "2.4.2"
     implementation "androidx.room:room-runtime:$room_version"
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation "androidx.room:room-ktx:$room_version"

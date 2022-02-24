@@ -1,5 +1,17 @@
 # JetpackParty2022
 
+## 2022-02-23
+1. Compose Animation Version 1.1.1
+2. Compose Compiler Version 1.1.1
+3. Compose Foundation Version 1.1.1
+4. Compose Material Version 1.1.1
+5. Compose Runtime Version 1.1.1
+6. Compose UI Version 1.1.1
+7. Emoji2 Version 1.1.0
+8. Games-Activity Games-Controller Version 1.1.0
+9. Games-Frame-Pacing Version 1.10.0
+10. Room Version 2.4.2
+
 ## 2022-02-09
 1. Compose Animation Version 1.1.0
 2. Compose Compiler Version 1.1.0
