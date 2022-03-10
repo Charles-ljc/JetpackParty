@@ -394,7 +394,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Paging
     // The Paging Library makes it easier for you to load data gradually and gracefully within your app's RecyclerView.
-    def paging_version = "3.1.0"
+    def paging_version = "3.1.1"
     implementation "androidx.paging:paging-runtime:$paging_version"
     // alternatively - without Android dependencies for tests
     testImplementation "androidx.paging:paging-common:$paging_version"

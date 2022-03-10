@@ -1,5 +1,8 @@
 # JetpackParty2022
 
+## 2022-03-09
+1. Paging Version 3.1.1
+
 ## 2022-02-23
 1. Compose Animation Version 1.1.1
 2. Compose Compiler Version 1.1.1
