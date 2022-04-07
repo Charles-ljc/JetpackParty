@@ -1,5 +1,8 @@
 # JetpackParty2022
 
+## 2022-04-06
+1. Navigation Version 2.4.2
+
 ## 2022-03-09
 1. Paging Version 3.1.1
 
