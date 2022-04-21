@@ -1,5 +1,9 @@
 # JetpackParty2022
 
+## 2022-04-20
+1. Media Version 1.6.0
+2. Mediarouter Version 1.3.0
+
 ## 2022-04-06
 1. Navigation Version 2.4.2
 
