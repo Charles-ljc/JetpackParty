@@ -215,6 +215,12 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
+    // DragAndDrop
+    // Accept drag-and-drop data from another app or within an app, and show a consistent drop target affordance.
+    implementation "androidx.draganddrop:draganddrop:1.0.0"
+    // —————————————————————————————————————————————————————————————————————————————————————————————
+
+    // —————————————————————————————————————————————————————————————————————————————————————————————
     // Drawerlayout
     // Implement a Material Design drawer widget.
     implementation "androidx.drawerlayout:drawerlayout:1.1.1"
@@ -552,7 +558,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Tracing
     // Write trace events to the system trace buffer.
-    implementation "androidx.tracing:tracing-ktx:1.0.0"
+    implementation "androidx.tracing:tracing-ktx:1.1.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
