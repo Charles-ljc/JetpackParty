@@ -169,7 +169,7 @@ dependencies {
     // To use RoleManagerCompat
     implementation "androidx.core:core-role:1.0.0"
     // Optional - to use ShortcutManagerCompat to donate shortcuts to be used by Google
-    implementation "androidx.core:core-google-shortcuts:1.0.0"
+    implementation "androidx.core:core-google-shortcuts:1.0.1"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————

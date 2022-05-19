@@ -1,5 +1,8 @@
 # JetpackParty2022
 
+## 2022-05-18
+1. Core-Google-Shortcuts Version 1.0.1
+
 ## 2022-05-11
 1. Drag And Drop Version 1.0.0
 2. Tracing Version 1.1.0
