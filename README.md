@@ -1,5 +1,9 @@
 # JetpackParty2022
 
+## 2022-05-20
+1. ConstraintLayout 2.1.4
+2. Compose ConstraintLayout 1.0.1
+
 ## 2022-05-18
 1. Core-Google-Shortcuts Version 1.0.1
 
