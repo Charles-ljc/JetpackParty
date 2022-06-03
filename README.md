@@ -1,5 +1,9 @@
 # JetpackParty2022
 
+## 2022-06-01
+1. AppCompat AppCompat-Resources Version 1.4.2
+2. Core Core-Ktx Version 1.8.0
+
 ## 2022-05-20
 1. ConstraintLayout 2.1.4
 2. Compose ConstraintLayout 1.0.1

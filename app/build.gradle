@@ -37,7 +37,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Appcompat
     // Allows access to new APIs on older API versions of the platform (many using Material Design).
-    def appcompat_version = "1.4.1"
+    def appcompat_version = "1.4.2"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     // For loading and tinting drawables on older versions of the platform
     implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
@@ -165,7 +165,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Core
     // Target the latest platform features and APIs while also supporting older devices.
-    implementation "androidx.core:core-ktx:1.7.0"
+    implementation "androidx.core:core-ktx:1.8.0"
     // To use RoleManagerCompat
     implementation "androidx.core:core-role:1.0.0"
     // Optional - to use ShortcutManagerCompat to donate shortcuts to be used by Google
