@@ -1,5 +1,13 @@
 # JetpackParty2022
 
+## 2022-06-15
+1. Annotation Version 1.4.0
+2. Benchmark Version 1.1.0
+3. Games-Activity Version 1.2.0
+4. Games-Frame-Pacing Version 1.10.1
+5. Games-Performance-Tuner Version 1.6.0
+6. Wear Watchface Version 1.1.0
+
 ## 2022-06-01
 1. AppCompat AppCompat-Resources Version 1.4.2
 2. Core Core-Ktx Version 1.8.0
