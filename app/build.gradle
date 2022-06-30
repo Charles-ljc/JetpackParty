@@ -22,7 +22,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Activity
     // Access composable APIs built on top of Activity.
-    def activity_version = "1.4.0"
+    def activity_version = "1.5.0"
     implementation "androidx.activity:activity-ktx:${activity_version}"
     implementation "androidx.activity:activity-compose:${activity_version}"
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -84,12 +84,18 @@ dependencies {
     // CameraX is an addition to Jetpack that makes it easier to add camera capabilities to your app.
     // The library provides a number of compatibility fixes and workarounds to help make the developer experience consistent across many devices.
     // CameraX core library using the camera2 implementation
-    def camerax_version = "1.0.2"
+    def camerax_version = "1.1.0"
     // The following line is optional, as the core library is included indirectly by camera-camera2
     implementation "androidx.camera:camera-core:${camerax_version}"
     implementation "androidx.camera:camera-camera2:${camerax_version}"
     // If you want to additionally use the CameraX Lifecycle library
     implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    // If you want to additionally use the CameraX VideoCapture library
+    implementation "androidx.camera:camera-video:${camerax_version}"
+    // If you want to additionally use the CameraX View class
+    implementation "androidx.camera:camera-view:${camerax_version}"
+    // If you want to additionally use the CameraX Extensions library
+    implementation "androidx.camera:camera-extensions:${camerax_version}"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -119,7 +125,7 @@ dependencies {
     implementation "androidx.compose.animation:animation:${compose_version}"
     // Compose Compiler
     // Transform @Composable functions and enable optimizations with a Kotlin compiler plugin.
-    implementation "androidx.compose.compiler:compiler:${compose_version}"
+    implementation "androidx.compose.compiler:compiler:1.2.0"
     // Compose Foundation
     // Write Jetpack Compose applications with ready to use building blocks and extend foundation to build your own design system pieces.
     implementation "androidx.compose.foundation:foundation:${compose_version}"
@@ -268,7 +274,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.4.1"
+    def fragment_version = "1.5.0"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -328,7 +334,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Lifecycle
     // Lifecycle-aware components perform actions in response to a change in the lifecycle status of another component, such as activities and fragments. These components help you produce better-organized, and often lighter-weight code, that is easier to maintain.
-    def lifecycle_version = "2.4.1"
+    def lifecycle_version = "2.5.0"
     // ViewModel
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     // LiveData
@@ -386,7 +392,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Navigation
     // Navigation is a framework for navigating between 'destinations' within an Android application that provides a consistent API whether destinations are implemented as Fragments, Activities, or other components.
-    def nav_version = "2.4.2"
+    def nav_version = "2.5.0"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
     // Feature module Support
@@ -470,7 +476,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Savedstate
     // Write pluggable components that save the UI state when a process dies, and restore it when the process restarts.
-    implementation "androidx.savedstate:savedstate-ktx:1.1.0"
+    implementation "androidx.savedstate:savedstate-ktx:1.2.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————

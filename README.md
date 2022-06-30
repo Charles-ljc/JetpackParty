@@ -1,5 +1,14 @@
 # JetpackParty2022
 
+## 2022-06-29
+1. Activity Version 1.5.0
+2. Camera Version 1.1.0
+3. Compose Compiler Version 1.2.0
+4. Fragment Version 1.5.0
+5. Lifecycle Version 2.5.0
+6. Navigation Version 2.5.0
+7. SavedState Version 1.2.0
+
 ## 2022-06-15
 1. Annotation Version 1.4.0
 2. Benchmark Version 1.1.0
