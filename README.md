@@ -1,5 +1,9 @@
 # JetpackParty2022
 
+## 2022-07-13
+1. Games-Activity Version 1.2.1
+2. Games-Text-Input Version 1.1.1
+
 ## 2022-06-29
 1. Activity Version 1.5.0
 2. Camera Version 1.1.0
