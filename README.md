@@ -1,5 +1,22 @@
 # JetpackParty2022
 
+## 2022-07-27
+1. Activity Version 1.5.1
+2. Compose Animation Version 1.2.0
+3. Compose Foundation Version 1.2.0
+4. Compose Material Version 1.2.0
+5. Compose Runtime Version 1.2.0
+6. Compose UI Version 1.2.0
+7. Core-Splashscreen Version 1.0.0
+8. CustomView-Poolingcontainer Version 1.0.0
+9. Fragment Version 1.5.1
+10. Lifecycle Version 2.5.1
+11. Mediarouter Version 1.3.1
+12. Navigation Version 2.5.1
+13. ProfileInstaller Version 1.2.0
+14. Room Version 2.4.3
+15. Wear Compose Version 1.0.0
+
 ## 2022-07-13
 1. Games-Activity Version 1.2.1
 2. Games-Text-Input Version 1.1.1
