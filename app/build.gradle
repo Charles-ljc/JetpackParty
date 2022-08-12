@@ -37,7 +37,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Appcompat
     // Allows access to new APIs on older API versions of the platform (many using Material Design).
-    def appcompat_version = "1.4.2"
+    def appcompat_version = "1.5.0"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     // For loading and tinting drawables on older versions of the platform
     implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
@@ -119,13 +119,13 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Compose
     // Define your UI programmatically with composable functions that describe its shape and data dependencies.
-    def compose_version = "1.2.0"
+    def compose_version = "1.2.1"
     // Compose Animation
     // Build animations in their Jetpack Compose applications to enrich the user experience.
     implementation "androidx.compose.animation:animation:${compose_version}"
     // Compose Compiler
     // Transform @Composable functions and enable optimizations with a Kotlin compiler plugin.
-    implementation "androidx.compose.compiler:compiler:1.2.0"
+    implementation "androidx.compose.compiler:compiler:1.3.0"
     // Compose Foundation
     // Write Jetpack Compose applications with ready to use building blocks and extend foundation to build your own design system pieces.
     implementation "androidx.compose.foundation:foundation:${compose_version}"
@@ -253,7 +253,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Emoji2
     // Display emoji in current and older devices.
-    def emoji2_version = "1.1.0"
+    def emoji2_version = "1.2.0"
     implementation "androidx.emoji2:emoji2:$emoji2_version"
     implementation "androidx.emoji2:emoji2-views:$emoji2_version"
     implementation "androidx.emoji2:emoji2-views-helper:$emoji2_version"
@@ -277,7 +277,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.5.1"
+    def fragment_version = "1.5.2"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -651,7 +651,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Wear Watchface
     // Create applications for Wear OS by Google smartwatches.
-    def wear_watchface_version = "1.1.0"
+    def wear_watchface_version = "1.1.1"
     // Use to implement wear watchfaces
     implementation "androidx.wear.watchface:watchface:$wear_watchface_version"
     // Use to implement wear watchface complications (Kotlin-specific extensions)

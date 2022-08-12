@@ -1,5 +1,17 @@
 # JetpackParty2022
 
+## 2022-08-10
+1. AppCompat Version 1.5.0
+2. Compose Animation Version 1.2.1
+3. Compose Compiler Version 1.3.0
+4. Compose Foundation Version 1.2.1
+5. Compose Material Version 1.2.1
+6. Compose Runtime Version 1.2.1
+7. Compose UI Version 1.2.1
+8. Emoji2 Version 1.2.0
+9. Fragment Version 1.5.2
+10. Wear Watchface Version 1.1.1
+
 ## 2022-07-27
 1. Activity Version 1.5.1
 2. Compose Animation Version 1.2.0
