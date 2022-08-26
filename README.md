@@ -1,5 +1,10 @@
 # JetpackParty2022
 
+## 2022-08-24
+1. Wear Compose Version 1.0.1
+2. Wear Tiles Version 1.1.0
+3. Webkit Version 1.5.0
+
 ## 2022-08-10
 1. AppCompat Version 1.5.0
 2. Compose Animation Version 1.2.1

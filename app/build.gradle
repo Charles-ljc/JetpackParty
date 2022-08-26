@@ -628,7 +628,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Wear Compose
     // Write Jetpack Compose applications for Wearable devices by providing functionality to support wearable specific devices, sizes, shapes and navigation gestures.
-    def wear_compose_version = "1.0.0"
+    def wear_compose_version = "1.0.1"
     implementation "androidx.wear.compose:compose-foundation:$wear_compose_version"
     // For Wear Material Design UX guidelines and specifications
     implementation "androidx.wear.compose:compose-material:$wear_compose_version"
@@ -639,9 +639,11 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Wear Tiles
     // Create applications for Wear OS by Google smartwatches.
-    def wear_tiles_version = "1.0.1"
+    def wear_tiles_version = "1.1.0"
     // Use to implement support for wear tiles
     implementation "androidx.wear.tiles:tiles:$wear_tiles_version"
+    // Use to utilize components and layouts with Material Design in your tiles
+    implementation "androidx.wear.tiles:tiles-material:$wear_tiles_version"
     // Use to preview wear tiles in your own app
     debugImplementation "androidx.wear.tiles:tiles-renderer:$wear_tiles_version"
     // Use to fetch tiles from a tile provider in your tests
@@ -663,7 +665,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Webkit
     // Work with modern WebView APIs on Android 5 and above.
-    implementation "androidx.webkit:webkit:1.4.0"
+    implementation "androidx.webkit:webkit:1.5.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
