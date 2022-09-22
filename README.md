@@ -1,5 +1,10 @@
 # JetpackParty2022
 
+## 2022-09-21
+1. Activity Version 1.6.0
+2. Annotation Version 1.5.0
+3. Fragment Version 1.5.3
+
 ## 2022-09-07
 1. Annotation-Experimental Version 1.3.0
 2. AppCompat Version 1.5.1
