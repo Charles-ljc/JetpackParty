@@ -1,5 +1,13 @@
 # JetpackParty2022
 
+## 2022-09-07
+1. Annotation-Experimental Version 1.3.0
+2. AppCompat Version 1.5.1
+3. Compose Compiler Version 1.3.1
+4. Core Core-Ktx Version 1.9.0
+5. Navigation Version 2.5.2
+6. Wear Compose Version 1.0.2
+
 ## 2022-08-24
 1. Wear Compose Version 1.0.1
 2. Wear Tiles Version 1.1.0
