@@ -1,5 +1,8 @@
 # JetpackParty2022
 
+## 2022-10-04
+1. Compose Compiler Version 1.3.2
+
 ## 2022-09-21
 1. Activity Version 1.6.0
 2. Annotation Version 1.5.0
