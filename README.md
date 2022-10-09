@@ -1,5 +1,9 @@
 # JetpackParty2022
 
+## 2022-10-05
+1. Exifinterface Version 1.3.4
+2. ShareTarget Version 1.2.0
+
 ## 2022-10-04
 1. Compose Compiler Version 1.3.2
 
