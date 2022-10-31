@@ -22,7 +22,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Activity
     // Access composable APIs built on top of Activity.
-    def activity_version = "1.6.0"
+    def activity_version = "1.6.1"
     implementation "androidx.activity:activity-ktx:${activity_version}"
     implementation "androidx.activity:activity-compose:${activity_version}"
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -119,7 +119,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Compose
     // Define your UI programmatically with composable functions that describe its shape and data dependencies.
-    def compose_version = "1.2.1"
+    def compose_version = "1.3.0"
     // Compose Animation
     // Build animations in their Jetpack Compose applications to enrich the user experience.
     implementation "androidx.compose.animation:animation:${compose_version}"
@@ -132,6 +132,8 @@ dependencies {
     // Compose Material
     // Build Jetpack Compose UIs with ready to use Material Design Components. This is the higher level entry point of Compose, designed to provide components that match those described at www.material.io.
     implementation "androidx.compose.material:material:${compose_version}"
+    // Build Jetpack Compose UIs with Material Design 3 Components, the next evolution of Material Design. Material 3 includes updated theming and components and Material You personalization features like dynamic color, and is designed to be cohesive with the new Android 12 visual style and system UI.
+    implementation "androidx.compose.material3:material3:1.0.0"
     // Compose Runtime
     // Fundamental building blocks of Compose's programming model and state management, and core runtime for the Compose Compiler Plugin to target.
     implementation "androidx.compose.runtime:runtime:${compose_version}"
@@ -175,7 +177,7 @@ dependencies {
     // To use RoleManagerCompat
     implementation "androidx.core:core-role:1.0.0"
     // Optional - to use ShortcutManagerCompat to donate shortcuts to be used by Google
-    implementation "androidx.core:core-google-shortcuts:1.0.1"
+    implementation "androidx.core:core-google-shortcuts:1.1.0"
     // Optional - APIs for SplashScreen, including compatiblity helpers on devices prior Android 12
     implementation "androidx.core:core-splashscreen:1.0.0"
     // —————————————————————————————————————————————————————————————————————————————————————————————
@@ -271,13 +273,13 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Exifinterface
     // Read and write image file EXIF tags.
-    implementation "androidx.exifinterface:exifinterface:1.3.4"
+    implementation "androidx.exifinterface:exifinterface:1.3.5"
     // —————————————————————————————————————————————————————————————————————————————————————————————
 
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Fragment
     // Segment your app into multiple, independent screens that are hosted within an Activity.
-    def fragment_version = "1.5.3"
+    def fragment_version = "1.5.4"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
     // Testing Fragments in Isolation
     debugImplementation "androidx.fragment:fragment-testing:$fragment_version"
@@ -395,7 +397,7 @@ dependencies {
     // —————————————————————————————————————————————————————————————————————————————————————————————
     // Navigation
     // Navigation is a framework for navigating between 'destinations' within an Android application that provides a consistent API whether destinations are implemented as Fragments, Activities, or other components.
-    def nav_version = "2.5.2"
+    def nav_version = "2.5.3"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
     // Feature module Support

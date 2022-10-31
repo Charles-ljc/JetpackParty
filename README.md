@@ -1,5 +1,18 @@
 # JetpackParty2022
 
+## 2022-10-24
+1. Activity Version 1.6.1
+2. Compose Animation Version 1.3.0
+3. Compose Foundation Version 1.3.0
+4. Compose Material Version 1.3.0
+5. Compose Material 3 Version 1.0.0
+6. Compose Runtime Version 1.3.0
+7. Compose UI Version 1.3.0
+8. Core-Google-Shortcuts Version 1.1.0
+9. Exifinterface Version 1.3.5
+10. Fragment Version 1.5.4
+11. Navigation Version 2.5.3
+
 ## 2022-10-05
 1. Exifinterface Version 1.3.4
 2. ShareTarget Version 1.2.0
