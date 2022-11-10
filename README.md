@@ -1,5 +1,15 @@
 # JetpackParty2022
 
+## 2022-11-09
+1. Benchmark Version 1.1.1
+2. Car App Version 1.2.0
+3. Compose Animation Version 1.3.1
+4. Compose Material Version 1.3.1
+5. Compose Foundation Version 1.3.1
+6. Compose Material 3 Version 1.0.1
+7. Compose Runtime Version 1.3.1
+8. Compose UI Version 1.3.1
+
 ## 2022-11-08
 1. Test Annotation Version 1.0.1
 2. Test Runner Version 1.5.0
