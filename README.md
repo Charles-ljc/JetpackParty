@@ -1,5 +1,17 @@
 # JetpackParty2022
 
+## 2022-11-08
+1. Test Annotation Version 1.0.1
+2. Test Runner Version 1.5.0
+3. Test Rules Version 1.5.0
+4. Test Monitor Version 1.6.0
+5. Test Espresso Version 3.5.0
+6. Test Core Version 1.5.0
+7. Test Ext JUnit Version 1.1.4
+8. Test Ext Truth Version 1.5.0
+9. Test Services Version 1.4.2
+10. Test Orchestrator Version 1.4.2
+
 ## 2022-10-24
 1. Activity Version 1.6.1
 2. Compose Animation Version 1.3.0
