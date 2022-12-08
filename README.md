@@ -1,5 +1,15 @@
 # JetpackParty2022
 
+## 2022-12-07
+1. Camera Version 1.2.0
+2. Compose Animation Version 1.3.2
+3. Compose Runtime Version 1.3.2
+4. Compose UI Version 1.3.2
+5. Fragment Version 1.5.5
+6. Games-Activity Version 1.2.2
+7. ProfileInstaller Version 1.2.1
+8. Wear Compose Version 1.1.0
+
 ## 2022-11-09
 1. Benchmark Version 1.1.1
 2. Car App Version 1.2.0
